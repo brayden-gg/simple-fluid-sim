@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+        <title>Fluid Sim</title>
+        <meta charset="utf-8" />
+    </head>
+    <style>
+        body {
+            font-family: "Helvetica";
+        }
+    </style>
+    <body>
+        <h1>Interactive fluid simulation:</h1>
+        <p>Instructions
+            <ul>
+                <li>Press any key to add dye to the fluid where the mouse is.</li>
+                <li>Drag the mouse to move the fluid.</li>
+            </ul>
+        </p>
+        <p>Inspiration from <a href="https://www.youtube.com/watch?v=qsYE1wMEMPA">this YouTube video</a> and <a href="https://damassets.autodesk.net/content/dam/autodesk/research/publications-assets/pdf/realtime-fluid-dynamics-for.pdf">this paper</a></p>
+        <script src="sketch.js"></script>
+        <script src="tileGrid.js"></script>
+        <script src="solver.js"></script>
+    </body>
+</html>
